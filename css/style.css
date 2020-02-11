@@ -1,0 +1,143 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-link*/
+@font-face {
+  font-family: Circular Std Book;
+  src: url(../fonts/Circular Std Book.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+   font-family: 'Raleway', sans-serif;
+    color: #353535;
+}
+/*header start*/
+.header{
+    padding: 20px 0;
+}
+
+.menu{}
+.menu ul li{
+  padding: 0 1px;
+}
+.menu ul li a{
+    color: #2f2f2f;
+    border-radius: 25px;
+    padding: 7px 20px !important;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #fff !important;
+    background-color: #eb1b2b;
+}
+
+.donate_button{
+    font-weight: 800;
+    color: #fff !important;
+    padding: 7px 10px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    background-color: #eb1b2b;
+    transition: ease-in-out .5s;
+}
+
+.donate_button:hover {
+    color: #eb1b2b !important;
+    background-color: #fff;
+    border: 2px solid #eb1b2b;
+}
+/*header end*/
+/*banner start*/
+.carousel-item-custom{
+    -webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+.carousel-caption-custom{
+padding: 0;
+top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+}
+.slider_title{
+    font-weight: 800;
+    font-size: 45px;
+    
+}
+.slider_subtitle{
+     font-weight: 300;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.slider_btn_1{
+    font-weight: 800;
+    border: 2px solid #eb1b2b;
+    padding: 5px 23px;
+    border-radius: 25px;
+    background-color: #eb1b2b;
+    transition: ease-in-out .5s;
+}
+.slider_btn_2{
+     font-weight: 800;
+    border: 2px solid #fff;
+    padding: 5px 23px;
+    border-radius: 25px; 
+        transition: ease-in-out .5s;
+}
+.slider_btn_1:hover{
+    color: #eb1b2b !important;
+    background-color: #fff;
+    border-color: #eb1b2b;
+}
+.slider_btn_2:hover{
+    color: #eb1b2b !important;
+    background-color: #fff;
+    border-color: #eb1b2b;  
+}
+/*banner end*/
+/*service start*/
+.service{
+    padding: 80px 0;
+}
+.c_heading_container{
+    
+}
+.c_title{
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.c_subtitle{
+    font-weight: 400;
+    font-size: 18px;
+}
+.c_divider_wrapper{
+    padding: 15px 0;
+}
+.c_divider::before{
+    content: '';
+    width: 250px;
+    display: block;
+    margin: auto;
+    right: 0;
+    border-bottom: solid 2px #353535;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    z-index: -1;
+}
+.c_divider_icon{
+    font-size: 35px;
+    color: #eb1b2b;
+   background-color: #fff;
+    padding: 0 5px;
+}
+
+
+/*service end*/
