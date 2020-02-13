@@ -64,13 +64,153 @@
     padding: 10px 0 ;
 }
 .c_divider::before{
-    top: 55px;
+    top: 46px;
     width: 150px;
 }
 .c_divider_icon{
     font-size: 25px;
 }
+/*    service item*/
+.service_item_wrapper{
+    padding-top: 30px;
+}
+.service_content{
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 5px 15px #e1e1e1;
+}
+.service_content_title_icon {
+    font-size: 18px;
+    }
+.service_content_title {
+    font-size: 18px;
+    }
+.service_content_subtitle {
+    font-size: 16px;
+    margin-top: 5px;
+    }
+.service_content_link {
+    font-size: 16px;
+    margin-top: 5px;
+    }
 /*service end*/
+/*contact start*/
+.c_title {
+    font-size: 20px;
+} 
+.contact_divider::before{
+        top: 45px;
+    }
+/*counter start*/
+.counter_content {
+    padding: 30px 0;
+    margin-top: 20px;
+    }
+.counter_time {
+    font-size: 50px;
+    }
+.counter_time_name {
+    font-size: 16px;
+    margin-top: 0;
+    }
+/*counter end*/
+/*contact end*/
+/*team start*/
+.team{
+    padding: 40px 0;
+}
+
+.team_name {
+    font-size: 24px;
+    margin-top: 10px;
+    }
+.team_role {
+    font-size: 16px;
+    margin: 5px 0;
+    }
+.team_social {
+    margin: 0px;
+}
+.team_social li a {
+    font-size: 16px;
+    }
+/*team end*/
+/*upcoming campaign start*/
+    .campaign_item{
+    margin-top: 30px;    
+}
+    .card-custom{
+        margin-top: 10px;
+    }
+.card-title-custom {
+    font-size: 16px;
+}
+/*upcoming campaign end*/
+/*volunteer start*/
+.volunteer{
+    padding: 40px 0;
+    }
+.volunteer_title{
+    font-size: 16px;
+    margin: 0;
+}
+.campaign_amount{
+    font-size: 35px;
+}
+.campaign_amount_text{
+    font-size: 16px;
+}
+.volunteer_button_wrapper{
+        margin-top: 0;
+}
+.volunteer_button{
+    padding: 7px 25px;
+    }
+/*volunteer end*/
+/*news start*/
+.news-card-custom {
+    margin-top: 20px;
+}
+.news_card_title {
+    font-size: 18px;
+    margin-top: 5px;
+    }
+.news_card_title {
+    font-size: 16px;
+    margin-top: 5px;
+    }
+.news_card_text {
+    margin: 5px 0;
+    }
+    .news_button_wrapper{
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+/*news end*/
+/*footer start*/
+.footer{
+    padding: 25px 0;
+    
+}
+    .footer_social_icon{
+    display: flex;
+    justify-content: flex-end;
+        
+       
+    }
+.footer_social_icon li{
+    margin: 0;
+}
+.footer_social_icon li a{
+    font-size: 20px;
+}
+    
+.footer_copy_text{
+    font-size: 16px;
+    margin-top: 15px;
+}
+/*footer end*/
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -125,7 +265,119 @@
 .c_divider_icon{
     font-size: 25px;
 }
+/*    service item*/
+.service_item_wrapper{
+    padding-top: 30px;
+}
+.service_content{
+    padding: 40px;
+    text-align: center;
+}
+.service_content_title_icon {
+    font-size: 25px;
+    }
+.service_content_title {
+    font-size: 22px;
+    }
+.service_content_subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+    }
+.service_content_link {
+    font-size: 16px;
+    }
 /*service end*/
+/*contact start*/
+    
+/*counter start*/
+.counter_content {
+    padding: 40px 0;
+    margin-top: 20px;
+    }
+.counter_time {
+    font-size: 50px;
+    }
+.counter_time_name {
+    font-size: 16px;
+    margin-top: 0;
+    }
+/*counter end*/
+/*contact end*/
+/*team start*/
+.team{
+    padding: 50px 0;
+}
+.team_name {
+    font-size: 26px;
+    margin-top: 10px;
+    }
+.team_role {
+    font-size: 18px;
+    margin: 5px 0;
+    }
+.team_social {
+    margin: 5px;
+}
+.team_social li a {
+    font-size: 20px;
+    }
+/*team end*/
+/*upcoming campaign start*/
+.campaign_item{
+    margin-top: 40px;    
+}
+.card-title-custom {
+    font-size: 16px;
+}
+/*upcoming campaign end*/
+/*volunteer start*/
+.volunteer{
+    padding: 50px 0;
+    }
+.volunteer_title{
+    font-size: 20px;
+    margin: 0;
+}
+.campaign_amount{
+    font-size: 50px;
+}
+.campaign_amount_text{
+    font-size: 16px;
+}
+.volunteer_button_wrapper{
+        margin-top: 10px;
+}
+/*volunteer end*/
+/*news start*/
+.news-card-custom {
+    margin-top: 30px;
+}
+.news_card_title {
+    font-size: 16px;
+    margin-top: 5px;
+    }
+.news_card_text {
+    margin: 5px 0;
+    }
+    .news_button_wrapper{
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+/*news end*/
+/*footer start*/
+.footer{
+    padding: 30px 0;
+}
+.footer_social_icon li{
+    margin: 0 5px;
+}
+.footer_social_icon li a{
+    font-size: 18px;
+}  
+.footer_copy_text{
+    font-size: 16px;
+}
+/*footer end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -183,7 +435,110 @@
 .c_divider_icon{
     font-size: 25px;
 }
+/*service item*/
+.service_item_wrapper{
+    padding-top: 50px;
+}
+.service_content_title_icon {
+    font-size: 25px;
+    }
+.service_content_title {
+    font-size: 20px;
+    }
+.service_content_subtitle {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    }
+.service_content_link {
+    font-size: 16px;
+    }
 /*service end*/
+/*contact start*/
+    
+/*counter start*/
+.counter_content {
+    padding: 35px 0;
+    margin-top: 50px;
+    }
+.counter_time {
+    font-size: 70px;
+    }
+.counter_time_name {
+    font-size: 16px;
+    margin-top: 5px;
+    }
+/*counter end*/
+/*contact end*/
+/*team start*/
+.team{
+    padding: 60px 0;
+}
+.team_name {
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 10px;
+    }
+.team_role {
+    font-weight: 400;
+    font-size: 16px;
+    }
+.team_social {
+    margin: 0;
+}
+.team_social li a {
+        font-size: 20px;
+    }
+/*team end*/
+/*upcoming campaign start*/
+.campaign_item{
+    margin-top: 50px;    
+}
+.card-title-custom {
+    font-size: 18px;
+}
+/*upcoming campaign end*/
+/*volunteer start*/
+.volunteer{
+    padding: 60px 0;
+    }
+.volunteer_title{
+    font-size: 26px;
+    margin: 10px 0;
+}
+.campaign_amount{
+    font-size: 55px;
+    margin: 10px 0;
+}
+.campaign_amount_text{
+    margin: 10px 0;
+}
+.volunteer_button_wrapper{
+        margin-top: 20px;
+}
+/*volunteer end*/
+/*news start*/
+.news-card-custom {
+    margin-top: 40px;
+}
+.news_card_title {
+    font-size: 18px;
+    margin-top: 10px;
+    }
+/*news end*/
+/*footer start*/
+.footer{
+    padding: 40px 0;
+}
+
+.footer_social_icon li a{
+    font-size: 24px;
+}
+.footer_copy_text{
+    font-size: 16px;
+}
+/*footer end*/
+    
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -204,7 +559,28 @@
     margin-left: 15px;
 }
 /*    banner end*/
+/*upcoming campaign start*/
+.card-title-custom {
+    font-size: 22px;
+}
+/*upcoming campaign end*/
+/*volunteer start*/
+.volunteer_title{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.campaign_amount{
+    font-size: 65px;
+    margin: 10px 0;
+}
+.campaign_amount_text{
+    margin: 10px 0;
 
+}
+.volunteer_button_wrapper{
+        margin-top: 30px;
+}
+/*volunteer end*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
