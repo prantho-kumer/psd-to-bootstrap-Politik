@@ -52,16 +52,24 @@ body{
 }
 /*header end*/
 /*banner start*/
+
 .carousel-item-custom{
-    -webkit-transform-style: preserve-3d;
--moz-transform-style: preserve-3d;
-transform-style: preserve-3d;
+  padding: 80px 0;  
 }
-.carousel-caption-custom{
-padding: 0;
-top: 50%;
-transform: translateY(-50%);
-bottom: initial;
+.carousel-item-custom-1{
+    background-image: url(../images/banner_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item-custom-2{
+      background-image: url(../images/banner_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel_content{
+    margin: 100px 0;
 }
 .slider_title{
     font-weight: 800;
@@ -76,6 +84,7 @@ bottom: initial;
 
 .slider_btn_1{
     font-weight: 800;
+    color: #fff !important;
     border: 2px solid #eb1b2b;
     padding: 5px 23px;
     border-radius: 25px;
@@ -83,7 +92,8 @@ bottom: initial;
     transition: ease-in-out .5s;
 }
 .slider_btn_2{
-     font-weight: 800;
+    font-weight: 800;
+    color: #fff !important;
     border: 2px solid #fff;
     padding: 5px 23px;
     border-radius: 25px; 
@@ -457,6 +467,10 @@ bottom: initial;
 .footer_social_icon li a{
     font-size: 28px;
     color: #5a5a5a;
+    transition: .5s;
+}
+.footer_social_icon li a:hover{
+    color: #eb1b2b;
 }
 .footer_copy_text{
     font-size: 18px;

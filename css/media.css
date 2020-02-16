@@ -20,14 +20,22 @@
     } 
 /*header end*/
 /*banner start*/
+.carousel-item-custom{
+  padding: 20px 0;  
+}
+.carousel_content{
+    margin: 10px 0;
+}
 .slider_title {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 20px;
     text-align: center;
 }
-
+    .slider_subtitle{
+        text-align: center;
+        padding: 0;
+    }
 .slider_btn_wrapper{
-    margin-top: 25px;
     text-align: center;
     } 
     .mt_5{
@@ -192,14 +200,9 @@
     padding: 25px 0;
     
 }
-    .footer_social_icon{
-    display: flex;
-    justify-content: flex-end;
-        
-       
-    }
+    
 .footer_social_icon li{
-    margin: 0;
+    margin: 10px 0;
 }
 .footer_social_icon li a{
     font-size: 20px;
@@ -207,7 +210,6 @@
     
 .footer_copy_text{
     font-size: 16px;
-    margin-top: 15px;
 }
 /*footer end*/
 
@@ -235,12 +237,20 @@
     } 
 /*header end*/
 /*banner start*/
+.carousel-item-custom{
+  padding: 60px 0;  
+}
+.carousel_content{
+    margin: 20px 0;
+}
 .slider_title {
-    font-size: 30px;
+    font-size: 26px;
 }
 .slider_subtitle {
+    font-size: 16px;
     padding:0;
 }
+    
 /*banner end*/
 /*service start*/
 .service{
@@ -402,6 +412,12 @@
     } 
 /*header end*/
 /*banner start*/
+.carousel-item-custom{
+  padding: 60px 0;  
+}
+.carousel_content{
+    margin: 30px 0;
+}
 .slider_title {
     font-size: 35px;
 }
